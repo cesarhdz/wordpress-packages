@@ -35,7 +35,7 @@ And then, in the require section add the package you want as follows
 
 ````
 
-The you can run `$ composer install|update` and you get the following files installed:
+That's it, nwo you can run `$ composer install|update` and you get the following files installed:
 
     + vendor
         + composer
@@ -47,8 +47,10 @@ The you can run `$ composer install|update` and you get the following files inst
             + wp-markdown
 
 
+### Composer Installers
 
-Since all packages require [composer/installers], we get plugins installed in their right folder, adicionally you can change the folder using:
+
+All packages require [composer/installers], so we get plugins installed in their right folder, adicionally you can change the folder using:
 
 ~~~~json
 
