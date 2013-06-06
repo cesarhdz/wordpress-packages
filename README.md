@@ -3,6 +3,8 @@ Wordpress Packages
 
 Simple package delcarations to use themes, plugins, libraries and WordPress itself with [Composer]. This repo is just a sample for demonstrating WordPress integration with Compass, and will be useless when an oficial package repository for WordPress plugins and themes exists.
 
+[Composer]: http://getcomposer.org/
+
 
 ## How to use
 
@@ -33,7 +35,33 @@ And then, in the require section add the package you want as follows
 
 ````
 
+The you can run `$ composer install|update` and you get the following files installed:
 
-[Composer]: http://getcomposer.org/
+    + vendor
+        + composer
+            + installers
+            ...
+            autoload.php
+    + wp-content
+        + plugins
+            + wp-markdown
+
+
+
+Since all packages require [composer/installers], we get plugins installed in their right folder, adicionally you can change the folder using:
+
+~~~~json
+
+    "extra": {
+        "installer-paths": {
+            "your/custom/path/{$name}/": ["type:wordpress-plugin"]
+        }
+    }
+
+~~~~
+
+[composer/installers]: https://github.com/composer/installers
+
+
 
 
