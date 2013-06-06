@@ -4,7 +4,7 @@
         "wp-plugin/wp-markdown" : {
 
             "1.2" : {
-                "name": "wp-plugin/woocommerce",
+                "name": "wp-plugin/wp-markdown",
                 "version": "1.2",
                 "type":"wordpress-plugin",
                 "dist": {
