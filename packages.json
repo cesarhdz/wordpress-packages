@@ -1,0 +1,22 @@
+{
+    "packages" : {
+        "wordpress/wordpress" : {
+
+            "3.5.1": {
+                "name": "wordpress/wordpress",
+                "type" : "project",
+                "version": "3.5.1",
+                "dist": {
+                    "url": "http://wordpress.org/wordpress-3.5.1.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    },
+
+    "includes" : {
+        "wp-plugins.json" : {
+            "sha1": "2cca299f1bcb4b27d1a7f088e23d503cc1d4d893"
+        }
+    }
+}
