@@ -12,11 +12,12 @@
     "repositories" : [
         {
             "type": "composer",
-            "url" : "https://raw.github.com/cesarhdz/wordpress-packages/master/wp-plugins/"
+            "url" : "https://raw.github.com/cesarhdz/wordpress-packages/master/"
         }
     ],
     "require": {
         "php": ">=5.3",
+        "wordpress/wordpress" : "*",
         "wp-plugin/wp-markdown" : "*"
     }
 }

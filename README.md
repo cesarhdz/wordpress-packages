@@ -16,7 +16,7 @@ First of all, you have to register this repo first in your `composer.json`
     "repositories" : [
         {
             "type": "composer",
-            "url" : "https://raw.github.com/cesarhdz/wordpress-packages/master/wp-plugins/"
+            "url" : "https://raw.github.com/cesarhdz/wordpress-packages/master/"
         }
     ]
 
