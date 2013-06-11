@@ -16,7 +16,7 @@
 
     "includes" : {
         "wp-plugins.json" : {
-            "sha1": "2cca299f1bcb4b27d1a7f088e23d503cc1d4d893"
+            "sha1": "5e0a23e18ff028873c4144b3f5fbf3a5d25c2021"
         }
     }
 }
