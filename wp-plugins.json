@@ -44,7 +44,20 @@
                 "require" : { "composer/installers": "~1.0" }
             }
 
-        }
+        },
 
+        "wp-plugin/widget-settings-importexport": {
+        
+            "1.1" : {
+                "name": "wp-plugin/widget-settings-importexport",
+                "version": "1.1",
+                "type":"wordpress-plugin",
+                "dist": {
+                    "url": "http://downloads.wordpress.org/plugin/widget-settings-importexport.1.1.zip",
+                    "type": "zip"
+                },
+                "require" : { "composer/installers": "~1.0" }
+            }
+        }
     }
 }
