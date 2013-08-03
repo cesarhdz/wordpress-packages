@@ -10,13 +10,23 @@
                     "url": "http://wordpress.org/wordpress-3.5.1.zip",
                     "type": "zip"
                 }
+            },
+
+            "3.6": {
+                "name": "wordpress/wordpress",
+                "type" : "project",
+                "version": "3.6",
+                "dist": {
+                    "url": "http://wordpress.org/wordpress-3.6.zip",
+                    "type": "zip"
+                }
             }
         }
     },
 
     "includes" : {
         "wp-plugins.json" : {
-            "sha1": "5e0a23e18ff028873c4144b3f5fbf3a5d25c2021"
+            "sha1": "065076c08cf975b49d93b3510274d6d3b7d3972f"
         }
     }
 }
