@@ -8,7 +8,7 @@ Simple package delcarations to use themes, plugins, libraries and WordPress itse
 
 ## How to use
 
-First of all, you have to register this repo first in your `composer.json`
+First of all, you have to register this repo and wpackagist in `composer.json`
 
 ````json
 
@@ -17,6 +17,10 @@ First of all, you have to register this repo first in your `composer.json`
         {
             "type": "composer",
             "url" : "https://raw.github.com/cesarhdz/wordpress-packages/master/"
+        },
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
         }
     ]
 
@@ -30,7 +34,7 @@ And then, in the require section add the package you want as follows
 
     "require": {
         "php": ">=5.3",
-        "wp-plugin/wp-markdown" : "*"
+        "wpackagist/wp-markdown" : "*"
     }
 
 ````

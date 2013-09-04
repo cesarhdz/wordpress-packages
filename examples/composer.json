@@ -18,6 +18,6 @@
     "require": {
         "php": ">=5.3",
         "wordpress/wordpress" : "*",
-        "wp-plugin/wp-markdown" : "*"
+        "wpackagist/wp-markdown" : "*"
     }
 }
