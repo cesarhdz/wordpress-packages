@@ -44,9 +44,11 @@ And then, in the require section add the package you want as follows
 
 ````
 
+That's it, now you can run 
 
+    $ composer install --prefer-dist
 
-That's it, now you can run `$ composer install|update` and you get the following files installed:
+And you get the following files installed
 
     + vendor
         + composer
