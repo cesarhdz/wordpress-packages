@@ -4,7 +4,7 @@
 
             "3.5.1": {
                 "name": "wordpress/wordpress",
-                "type" : "project",
+                "type" : "wordpress-core",
                 "version": "3.5.1",
                 "dist": {
                     "url": "http://wordpress.org/wordpress-3.5.1.zip",
@@ -14,7 +14,7 @@
 
             "3.6": {
                 "name": "wordpress/wordpress",
-                "type" : "project",
+                "type" : "wordpress-core",
                 "version": "3.6",
                 "dist": {
                     "url": "http://wordpress.org/wordpress-3.6.zip",
