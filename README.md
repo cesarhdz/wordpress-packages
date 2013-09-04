@@ -5,6 +5,11 @@ Simple package delcarations to use themes, plugins, libraries and WordPress itse
 
 [Composer]: http://getcomposer.org/
 
+#### WPackagist.org
+
+[wpackagist.org] is a composer repo that mirrors WordPress plugin repository, so it should be the prefered method for adding plugins.
+
+[wpackagist.org]:http://wpackagist.org/
 
 ## How to use
 
@@ -39,7 +44,9 @@ And then, in the require section add the package you want as follows
 
 ````
 
-That's it, nwo you can run `$ composer install|update` and you get the following files installed:
+
+
+That's it, now you can run `$ composer install|update` and you get the following files installed:
 
     + vendor
         + composer

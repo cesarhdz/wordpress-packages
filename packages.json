@@ -10,6 +10,16 @@
                     "url": "http://wordpress.org/wordpress-3.5.1.zip",
                     "type": "zip"
                 }
+            },
+
+            "3.6": {
+                "name": "wordpress/wordpress",
+                "type" : "project",
+                "version": "3.6",
+                "dist": {
+                    "url": "http://wordpress.org/wordpress-3.6.zip",
+                    "type": "zip"
+                }
             }
         }
     }
