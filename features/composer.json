@@ -22,6 +22,7 @@
     "require": {
         "php": ">=5.3",
         "wordpress/wordpress" : "~3.6",
-	    "wpackagist/wp-markdown" : "*"
+        "symfony/config" : "~2.3",
+        "wpackagist/wp-markdown" : "*"
     }
 }
