@@ -9,6 +9,9 @@
                 "dist": {
                     "url": "http://wordpress.org/wordpress-3.5.1.zip",
                     "type": "zip"
+                },
+                "require": {
+                    "johnpbloch/wordpress-core-installer": "~0.2"
                 }
             },
 
@@ -19,48 +22,23 @@
                 "dist": {
                     "url": "http://wordpress.org/wordpress-3.6.zip",
                     "type": "zip"
+                },
+                "require": {
+                    "johnpbloch/wordpress-core-installer": "~0.2"
                 }
-            }
-        },
+            },
 
-        "composer/installers" : {
-            "v1.0.6" : {
-                "name": "composer/installers",
-                "version": "v1.0.6",
+            "3.6.1": {
+                "name": "wordpress/wordpress",
+                "type" : "wordpress-core",
+                "version": "3.6",
                 "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/cesarhdz/installers/archive/1e5cba53f98c3bc9088164864bc3ab9c0a44ea02.zip"
+                    "url": "http://wordpress.org/wordpress-3.6.1.zip",
+                    "type": "zip"
                 },
-                "replace": {
-                    "shama/baton": "*"
-                },
-                "require-dev": {
-                    "composer/composer": "1.0.*@dev",
-                    "phpunit/phpunit": "3.7.*"
-                },
-                "type": "composer-installer",
-                "extra": {
-                    "class": "Composer\\Installers\\Installer",
-                    "branch-alias": {
-                        "dev-master": "1.0-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Composer\\Installers\\": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Kyle Robinson Young",
-                        "email": "kyle@dontkry.com",
-                        "homepage": "https://github.com/shama",
-                        "role": "Developer"
-                    }
-                ]
+                "require": {
+                    "johnpbloch/wordpress-core-installer": "~0.2"
+                }
             }
         }
     }
