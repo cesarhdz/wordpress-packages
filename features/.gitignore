@@ -1,3 +1,7 @@
-*
-!.gitignore
-!composer.json
+# Wordpress Composer
+vendor/
+wp/
+composer.lock
+
+# PHP Built-in server
+mailoutput/

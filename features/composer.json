@@ -24,5 +24,11 @@
         "wordpress/wordpress" : "~3.6",
         "symfony/config" : "~2.3",
         "wpackagist/wp-markdown" : "*"
+    },
+    "extra" : {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "vendor/wp-plugin/{$name}/": ["type:wordpress-plugin"]
+        }
     }
 }
